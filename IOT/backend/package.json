@@ -1,0 +1,29 @@
+{
+  "name": "iot-smart-ambulance-backend",
+  "version": "1.0.0",
+  "description": "Backend API and Real-Time Socket Server for IoT-Based Smart Ambulance and Emergency Communication System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "iot",
+    "esp32",
+    "smart-ambulance",
+    "healthcare",
+    "socket.io",
+    "express",
+    "mongodb"
+  ],
+  "author": "Smart Ambulance Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.8.1"
+  }
+}

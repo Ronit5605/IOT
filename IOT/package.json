@@ -1,0 +1,23 @@
+{
+  "name": "iot-based-smart-ambulance-system",
+  "version": "1.0.0",
+  "description": "IoT-Based Smart Ambulance and Emergency Communication System",
+  "scripts": {
+    "server": "npm --prefix backend start",
+    "client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test:iot": "node esp32/test_iot_packet.js",
+    "test:iot:critical": "node esp32/test_iot_packet.js critical"
+  },
+  "keywords": [
+    "iot",
+    "esp32",
+    "smart-ambulance",
+    "socketio",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "Smart Ambulance Team",
+  "license": "MIT"
+}
